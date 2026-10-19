@@ -1,1 +1,27 @@
-{"schemaVersion":1,"announcements":[]}
+{
+  "schemaVersion": 1,
+  "announcements": [
+    {
+      "id": "introducing-announcements-20261019",
+      "apps": [
+        "scoredeck",
+        "scheduledeck"
+      ],
+      "category": "other",
+      "publishedAt": "2026-10-19T01:25:28Z",
+      "targetVersion": null,
+      "translations": {
+        "ja": {
+          "title": "お知らせ機能を追加しました",
+          "summary": "Score DeckとSchedule Deckに、お知らせ機能を追加しました。",
+          "body": "Score DeckとSchedule Deckに、お知らせ機能を追加しました。今後、機能の追加や改善、不具合の修正状況などを、この画面からご案内します。より使いやすく、安心して利用できるアプリを目指して改善を続けていきます。"
+        },
+        "en": {
+          "title": "Introducing Announcements",
+          "summary": "We've added an announcements feature to Score Deck and Schedule Deck.",
+          "body": "We've added an announcements feature to Score Deck and Schedule Deck. We'll use this space to share new features, improvements, bug fixes, and other important updates. We'll continue improving both apps to make them easier and more reliable to use."
+        }
+      }
+    }
+  ]
+}
