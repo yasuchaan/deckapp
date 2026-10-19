@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+_site/
+deck-announcements-admin*.json
+*.pem
+*.key
+*.p12
+.DS_Store
