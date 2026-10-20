@@ -30,6 +30,7 @@ jobs:
           mkdir -p _site/admin
           cp docs/index.html docs/announcements.json _site/
           cp docs/admin/index.html _site/admin/
+          cp -R docs/legal-assets docs/legal docs/support docs/scoredeck docs/scheduledeck docs/en _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name == 'workflow_dispatch' && inputs.publish && github.ref == 'refs/heads/main'
